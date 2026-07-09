@@ -28,8 +28,14 @@
   <header class="site-header" id="site-header" data-state="top">
     <div class="header-inner">
       <a href="#top" class="brand" aria-label="Manstein — Startseite">
-        <img class="brand-logo brand-logo-light" src="manstein-logo-mono-cream.png" alt="Manstein" width="68" height="46" />
-        <img class="brand-logo brand-logo-dark" src="manstein-logo-mono-green.png" alt="" aria-hidden="true" width="68" height="46" />
+        <picture>
+          <source type="image/webp" srcset="manstein-logo-mono-cream.webp" />
+          <img class="brand-logo brand-logo-light" src="manstein-logo-mono-cream.png" alt="Manstein" width="68" height="46" />
+        </picture>
+        <picture>
+          <source type="image/webp" srcset="manstein-logo-mono-green.webp" />
+          <img class="brand-logo brand-logo-dark" src="manstein-logo-mono-green.png" alt="" aria-hidden="true" width="68" height="46" />
+        </picture>
       </a>
 
       <nav class="nav-desktop" aria-label="Hauptnavigation">
@@ -70,7 +76,10 @@
         <h1 class="visually-hidden">Manstein — Café, Bistro &amp; Bar in Berlin-Charlottenburg</h1>
         <p class="hero-eyebrow">Berlin · Charlottenburg</p>
 
-        <img class="hero-logo" src="manstein-logo-full-cream.png" alt="Manstein — Café · Bistro · Bar" width="430" height="439" fetchpriority="high" />
+        <picture>
+          <source type="image/webp" srcset="manstein-logo-full-cream.webp" />
+          <img class="hero-logo" src="manstein-logo-full-cream.png" alt="Manstein — Café · Bistro · Bar" width="430" height="439" fetchpriority="high" />
+        </picture>
 
         <p class="hero-lead">Mediterrane, französische &amp; internationale Küche an der Witzlebenstraße — von Morgens bis Mitternacht.</p>
 
@@ -108,12 +117,14 @@
             <li><span class="bullet" aria-hidden="true"></span>Vegetarisch · vegan · laktosefrei</li>
           </ul>
 
-          <p class="signature">Susanne Manstein <span>— Gastgeberin</span></p>
         </div>
 
         <figure class="welcome-figure" data-reveal>
           <div class="frame">
-            <img src="2026_manstein01.jpg" alt="Heller Gastraum von Manstein mit Holzregalen, Weinflaschen, frischen Blumen und Bistrostühlen" loading="lazy" decoding="async" />
+            <picture>
+              <source type="image/webp" srcset="2026_manstein01.webp" />
+              <img src="2026_manstein01.jpg" alt="Heller Gastraum von Manstein mit Holzregalen, Weinflaschen, frischen Blumen und Bistrostühlen" loading="lazy" decoding="async" />
+            </picture>
           </div>
           <figcaption>Der Gastraum</figcaption>
         </figure>
@@ -165,9 +176,9 @@
       </div>
 
       <div class="kitchen-strip" aria-hidden="true">
-        <div class="strip-img" style="background-image:url('2026_manstein02.jpg')"></div>
-        <div class="strip-img" style="background-image:url('2026_manstein04.jpg')"></div>
-        <div class="strip-img" style="background-image:url('2026_manstein05.jpg')"></div>
+        <div class="strip-img" style="background-image:url('2026_manstein02.webp')"></div>
+        <div class="strip-img" style="background-image:url('2026_manstein04.webp')"></div>
+        <div class="strip-img" style="background-image:url('2026_manstein05.webp')"></div>
       </div>
     </section>
 
@@ -179,7 +190,10 @@
           <h2 class="h-display">Karte</h2>
           <p>Eine Auswahl aus unserer Karte. Die wechselnde Speisekarte und den täglich frischen Kuchen findet ihr vor Ort an der Tafel.</p>
           <figure class="menu-photo">
-            <img src="2026_manstein02.jpg" alt="Weinregal bei Manstein mit Flaschen, Gläsern und einem kleinen Zitrusbäumchen" loading="lazy" decoding="async" />
+            <picture>
+              <source type="image/webp" srcset="2026_manstein02.webp" />
+              <img src="2026_manstein02.jpg" alt="Weinregal bei Manstein mit Flaschen, Gläsern und einem kleinen Zitrusbäumchen" loading="lazy" decoding="async" />
+            </picture>
           </figure>
           <button class="btn btn-outline btn-block" type="button" data-lightbox-src="2026_menu_manstein.webp" data-lightbox-caption="Die vollständige Karte von Manstein">
             Gesamte Karte ansehen
@@ -265,20 +279,35 @@
         </header>
 
         <div class="gallery-grid" data-reveal>
-          <button class="g-item g-tall" type="button" data-lightbox-src="2026_manstein01.jpg" data-lightbox-caption="Gastraum mit Bar und Holzregalen">
-            <img src="2026_manstein01.jpg" alt="Gastraum von Manstein mit Bar, Holzregalen und Bistrostühlen" loading="lazy" decoding="async" />
+          <button class="g-item g-tall" type="button" data-lightbox-src="2026_manstein01.webp" data-lightbox-caption="Gastraum mit Bar und Holzregalen">
+            <picture>
+              <source type="image/webp" srcset="2026_manstein01.webp" />
+              <img src="2026_manstein01.jpg" alt="Gastraum von Manstein mit Bar, Holzregalen und Bistrostühlen" loading="lazy" decoding="async" />
+            </picture>
           </button>
-          <button class="g-item g-wide" type="button" data-lightbox-src="2026_manstein03.jpg" data-lightbox-caption="Atmosphäre im Gastraum">
-            <img src="2026_manstein03.jpg" alt="Stimmungsvoller Gastraum von Manstein im warmen Licht" loading="lazy" decoding="async" />
+          <button class="g-item g-wide" type="button" data-lightbox-src="2026_manstein03.webp" data-lightbox-caption="Atmosphäre im Gastraum">
+            <picture>
+              <source type="image/webp" srcset="2026_manstein03.webp" />
+              <img src="2026_manstein03.jpg" alt="Stimmungsvoller Gastraum von Manstein im warmen Licht" loading="lazy" decoding="async" />
+            </picture>
           </button>
-          <button class="g-item" type="button" data-lightbox-src="2026_manstein05.jpg" data-lightbox-caption="Frische Blumen auf den Tischen">
-            <img src="2026_manstein05.jpg" alt="Frische Pfingstrosen in einer Vase auf einem Tisch bei Manstein" loading="lazy" decoding="async" />
+          <button class="g-item" type="button" data-lightbox-src="2026_manstein05.webp" data-lightbox-caption="Frische Blumen auf den Tischen">
+            <picture>
+              <source type="image/webp" srcset="2026_manstein05.webp" />
+              <img src="2026_manstein05.jpg" alt="Frische Pfingstrosen in einer Vase auf einem Tisch bei Manstein" loading="lazy" decoding="async" />
+            </picture>
           </button>
-          <button class="g-item g-tall" type="button" data-lightbox-src="2026_manstein04.jpg" data-lightbox-caption="Fensterplatz mit Blick auf die Witzlebenstraße">
-            <img src="2026_manstein04.jpg" alt="Fensterplatz bei Manstein mit Blick auf die Straße und Regale mit Wein" loading="lazy" decoding="async" />
+          <button class="g-item g-tall" type="button" data-lightbox-src="2026_manstein04.webp" data-lightbox-caption="Fensterplatz mit Blick auf die Witzlebenstraße">
+            <picture>
+              <source type="image/webp" srcset="2026_manstein04.webp" />
+              <img src="2026_manstein04.jpg" alt="Fensterplatz bei Manstein mit Blick auf die Straße und Regale mit Wein" loading="lazy" decoding="async" />
+            </picture>
           </button>
-          <button class="g-item g-wide" type="button" data-lightbox-src="2026_manstein02.jpg" data-lightbox-caption="Detail: Regale mit Wein und Zitrusbäumchen">
-            <img src="2026_manstein02.jpg" alt="Detailaufnahme der Regale bei Manstein mit Weinflaschen und Pflanzen" loading="lazy" decoding="async" />
+          <button class="g-item g-wide" type="button" data-lightbox-src="2026_manstein02.webp" data-lightbox-caption="Detail: Regale mit Wein und Zitrusbäumchen">
+            <picture>
+              <source type="image/webp" srcset="2026_manstein02.webp" />
+              <img src="2026_manstein02.jpg" alt="Detailaufnahme der Regale bei Manstein mit Weinflaschen und Pflanzen" loading="lazy" decoding="async" />
+            </picture>
           </button>
         </div>
       </div>
@@ -354,7 +383,10 @@
   <footer class="site-footer">
     <div class="container footer-grid">
       <div class="footer-brand">
-        <img class="footer-logo" src="manstein-logo-full-cream.png" alt="Manstein — Café · Bistro · Bar" width="188" height="192" loading="lazy" />
+        <picture>
+          <source type="image/webp" srcset="manstein-logo-full-cream.webp" />
+          <img class="footer-logo" src="manstein-logo-full-cream.png" alt="Manstein — Café · Bistro · Bar" width="188" height="192" loading="lazy" />
+        </picture>
         <p class="footer-note">Ein Pariser Bistro mitten in Berlin-Charlottenburg. Herzlich, unkompliziert, von Morgens bis Mitternacht.</p>
       </div>
 
@@ -382,7 +414,7 @@
     </div>
 
     <div class="container footer-bottom">
-      <p>© <span id="year">2026</span> Manstein Café Bistrot · Inhaberin Susanne Manstein</p>
+      <p>© <span id="year">2026</span> Manstein Café Bistrot</p>
       <p class="footer-credit">Witzlebenstraße 32 · 14057 Berlin-Charlottenburg</p>
       <nav class="footer-legal" aria-label="Rechtliches">
         <a href="impressum.html">Impressum</a>

@@ -22,8 +22,14 @@
   <header class="site-header" id="site-header" data-state="top">
     <div class="header-inner">
       <a href="index.html" class="brand" aria-label="Manstein — Startseite">
-        <img class="brand-logo brand-logo-light" src="manstein-logo-mono-cream.png" alt="Manstein" width="68" height="46" />
-        <img class="brand-logo brand-logo-dark" src="manstein-logo-mono-green.png" alt="" aria-hidden="true" width="68" height="46" />
+        <picture>
+          <source type="image/webp" srcset="manstein-logo-mono-cream.webp" />
+          <img class="brand-logo brand-logo-light" src="manstein-logo-mono-cream.png" alt="Manstein" width="68" height="46" />
+        </picture>
+        <picture>
+          <source type="image/webp" srcset="manstein-logo-mono-green.webp" />
+          <img class="brand-logo brand-logo-dark" src="manstein-logo-mono-green.png" alt="" aria-hidden="true" width="68" height="46" />
+        </picture>
       </a>
 
       <nav class="nav-desktop" aria-label="Hauptnavigation">
@@ -80,7 +86,7 @@
           <h2>1. Verantwortlicher</h2>
           <p>Verantwortlich für die Datenverarbeitung auf dieser Website ist:</p>
           <address>
-            Susanne Manstein — Manstein Café Bistrot<br />
+            Manstein Café Bistrot<br />
             Witzlebenstraße 32<br />
             14057 Berlin-Charlottenburg<br />
             Telefon: <a href="tel:+493030112522">030 30112522</a><br />
@@ -198,7 +204,10 @@
   <footer class="site-footer">
     <div class="container footer-grid">
       <div class="footer-brand">
-        <img class="footer-logo" src="manstein-logo-full-cream.png" alt="Manstein — Café · Bistro · Bar" width="188" height="192" loading="lazy" />
+        <picture>
+          <source type="image/webp" srcset="manstein-logo-full-cream.webp" />
+          <img class="footer-logo" src="manstein-logo-full-cream.png" alt="Manstein — Café · Bistro · Bar" width="188" height="192" loading="lazy" />
+        </picture>
         <p class="footer-note">Ein Pariser Bistro mitten in Berlin-Charlottenburg. Herzlich, unkompliziert, von Morgens bis Mitternacht.</p>
       </div>
 
@@ -226,7 +235,7 @@
     </div>
 
     <div class="container footer-bottom">
-      <p>© <span id="year">2026</span> Manstein Café Bistrot · Inhaberin Susanne Manstein</p>
+      <p>© <span id="year">2026</span> Manstein Café Bistrot</p>
       <p class="footer-credit">Witzlebenstraße 32 · 14057 Berlin-Charlottenburg</p>
       <nav class="footer-legal" aria-label="Rechtliches">
         <a href="impressum.html">Impressum</a>

@@ -54,6 +54,7 @@ body{
   overflow-x:hidden;
 }
 img{ display:block; max-width:100%; height:auto; }
+picture{ display:contents; }
 a{ color:inherit; text-decoration:none; }
 button{ font-family:inherit; cursor:pointer; }
 h1,h2,h3,p,ul,figure,blockquote{ margin:0; }
@@ -233,7 +234,7 @@ section{ scroll-margin-top:84px; }
 }
 .hero-bg{
   position:absolute; inset:0;
-  background:url("2026_manstein03.jpg") center/cover no-repeat;
+  background:url("2026_manstein03.webp") center/cover no-repeat;
   transform:scale(1.06); opacity:.5;
 }
 .hero-veil{
@@ -482,6 +483,7 @@ section{ scroll-margin-top:84px; }
   .visit-map{ min-height:340px; }
   .footer-grid{ grid-template-columns:1fr 1fr; }
   .footer-brand{ grid-column:1 / -1; }
+  .gallery-grid{ grid-template-columns:repeat(2,1fr); grid-auto-rows:220px; }
 }
 @media (max-width:640px){
   body{ font-size:16px; }
@@ -489,9 +491,14 @@ section{ scroll-margin-top:84px; }
   .menu-cols{ columns:1; }
   .welcome-points{ grid-template-columns:1fr; }
   .visit-details{ grid-template-columns:1fr; }
-  .gallery-grid{ grid-template-columns:repeat(2,1fr); grid-auto-rows:150px; }
-  .g-wide{ grid-column:span 2; }
-  .g-tall{ grid-row:span 1; }
+  .kitchen-grid{ grid-template-columns:1fr; }
+  .kitchen-card{ padding:1.7rem 1.4rem 1.6rem; }
+  .kitchen-strip{ grid-template-columns:1fr; height:auto; margin-top:2.5rem; }
+  .strip-img{ height:190px; }
+  .strip-img + .strip-img{ border-left:0; border-top:2px solid var(--green); }
+  .gallery-grid{ grid-template-columns:1fr; grid-auto-rows:unset; gap:.85rem; }
+  .g-item{ aspect-ratio:4/3.1; }
+  .g-tall, .g-wide{ grid-column:auto; grid-row:auto; }
   .hero-meta{ flex-direction:column; gap:.5rem; }
   .hero-meta .dot{ display:none; }
   .footer-grid{ grid-template-columns:1fr; }
