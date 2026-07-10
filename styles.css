@@ -488,6 +488,7 @@ section{ scroll-margin-top:84px; }
 @media (max-width:640px){
   body{ font-size:16px; }
   .section{ padding-block:clamp(3.5rem,12vw,5rem); }
+  .hero-logo{ width:min(240px,58vw); }
   .menu-cols{ columns:1; }
   .welcome-points{ grid-template-columns:1fr; }
   .visit-details{ grid-template-columns:1fr; }
